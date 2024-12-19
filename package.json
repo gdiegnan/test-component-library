@@ -1,0 +1,19 @@
+{
+  "name": "my-component",
+  "version": "1.0.0",
+  "description": "Test component",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./astro": "./MyAstroComponent.astro"
+  },
+  "keywords": [
+    "Test"
+  ],
+  "author": "",
+  "license": "ISC"
+}
